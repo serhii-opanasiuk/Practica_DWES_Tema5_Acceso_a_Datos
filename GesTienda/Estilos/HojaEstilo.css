@@ -1,0 +1,124 @@
+﻿body {
+    width: 98%;
+    padding: 0px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+#cabecera {
+    width: 100%;
+    padding: 0px;
+}
+
+#cabecera1 {
+    width: 100%;
+    padding: 0px;
+    background-color: #000000;
+    text-align: right;
+    color: #ffffff;
+}
+
+#cabecera2 {
+    width: 100%;
+    padding: 0px;
+    background-color: #006699;
+    color: #ffffff;
+    font-size: large;
+    font-weight: bold;
+}
+
+#cabecera3 {
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    text-align: right;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#cuerpo {
+    width: 100%;
+    padding: 0px;
+}
+
+#menu {
+    float: left;
+    width: 12%;
+    padding: 8px;
+    padding-bottom: 5px;
+    border-style: groove;
+    border-width: thin;
+    border-color: blue;
+    /* height: 500px; */
+}
+
+#contenido {
+    float: right;
+    width: 84%;
+    padding-bottom: 5px;
+}
+
+#pie {
+    clear: both;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+}
+
+.contenidotitulo {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.verticalMitad {
+    vertical-align: middle;
+}
+
+form#formulario1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div#productos {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+div#producto1 {
+    width: 60%;
+}
+div#productos > div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+div#producto1 > div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+div#producto1 > div > span {
+    display: inline;
+    text-align: right;
+    width: 30%;
+    padding: 10px 5px 10px 0px;
+}
+div#producto1 > div > input, select {
+    width: 70%;
+}
+div#botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+div#botones > input[type="submit"] {
+    width: 100px;
+}
+div#loginmenu {
+    display: flex;
+    justify-content: center;
+}
