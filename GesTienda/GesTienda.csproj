@@ -76,6 +76,7 @@
     <Content Include="Default.aspx" />
     <Content Include="Estilos\HojaEstilo.css" />
     <Content Include="Global.asax" />
+    <Content Include="index.html" />
     <Content Include="InicioAdmin.aspx" />
     <Content Include="InicioUsuario.aspx" />
     <Content Include="PedidosPorCliente.aspx" />
